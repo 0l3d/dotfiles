@@ -1,0 +1,85 @@
+* Dotfiles
+Gentoo Linux dotfiles.
+
+** System
+|-----+---------------|
+| CPU | AMD R5 5600   |
+| GPU | RTX 2060SUPER |
+| RAM | 32 GIGACHAD   |
+|-----+---------------|
+
+** Dotfiles
+|---------------+-----------|
+| *DE/WM*       | Hyprland  |
+| *BAR*         | Waybar    |
+| *LAUNCHER*    | Wofi      |
+| *SHELL*       | Zsh       |
+| *LOGOUT MENU* | wlogout   |
+| *TERMINAL*    | kitty     |
+| *FETCH*       | fastfetch |
+| *EDITOR*      | DoomEmacs |
+| *SYSMONITOR*  | Btop      |
+| *GTK*         | Fluent    |
+| *QT/Kvantum*  | Fluent    |
+| *Cursor*      | Material  |
+| *INIT*        | OpenRC    |
+|---------------+-----------|
+
+** Packages
+|----------------------------------------------|
+| doas                                         |
+| eclean-kernel (gentoo)                       |
+| sysklogd (gentoo)                            |
+| lz4                                          |
+| unrar                                        |
+| emacs                                        |
+| nano                                         |
+| all-the-icons + (-dired)                     |
+| emacs-ebuild-plugins                         |
+| nerd-icons                                   |
+| eselect-repository (gentoo)                  |
+| cliphist                                     |
+| fastfetch                                    |
+| nwg-look                                     |
+| genlop + gentoolkit + portage-utils (gentoo) |
+| zsh                                          |
+| just (dev-build gentoo)                      |
+| rust-bin                                     |
+| prismlauncher                                |
+| gamemode                                     |
+| steam-launcher                               |
+| nm-applet                                    |
+| hyprlock                                     |
+| hyprshot                                     |
+| swaync                                       |
+| swww                                         |
+| waybar                                       |
+| wl-clipboard                                 |
+| wlogout                                      |
+| wofi                                         |
+| hyprland                                     |
+| fontawesome                                  |
+| jetbrains-mono                               |
+| nerdfonts                                    |
+| noto-emoji                                   |
+| cava                                         |
+| pavucontrol                                  |
+| playerctl                                    |
+| pulseaudio                                   |
+| dnscrypt-proxy                               |
+| discord (vesktop-bin)                        |
+| networkmanager                               |
+| zapret                                       |
+| fragments (torrent client)                   |
+| flatpak                                      |
+| inxi                                         |
+| btop                                         |
+| zen-browser                                  |
+| kitty                                        |
+| xterm                                        |
+| kvantum                                      |
+| nwg-look                                     |
+| exercism                                     |
+|----------------------------------------------|
+** Installation Script
+coming soon...

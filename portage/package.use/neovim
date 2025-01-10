@@ -1,0 +1,2 @@
+dev-lua/mpack lua_targets_luajit
+dev-lua/lpeg lua_targets_luajit

@@ -1,0 +1,7 @@
+#Lutris multilib dependencies
+media-libs/vulkan-loader abi_x86_32
+media-libs/vulkan-layers abi_x86_32
+media-libs/freetype abi_x86_32
+media-libs/libpng abi_x86_32
+net-libs/gnutls abi_x86_32
+media-libs/libsdl2 abi_x86_32
