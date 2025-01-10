@@ -1,3 +1,5 @@
+[[./images/omg.png]]
+
 * Dotfiles
 Gentoo Linux dotfiles.
 

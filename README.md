@@ -1,22 +1,24 @@
 
 # Table of Contents
 
-1.  [Dotfiles](#org2bd7d83)
-    1.  [System](#orgc412787)
-    2.  [Dotfiles](#orgb5f6777)
-    3.  [Packages](#orgb81dd03)
-    4.  [Installation Script](#org719b7fe)
-    5.  [Images](#org59f921a)
+1.  [Dotfiles](#org62433a6)
+    1.  [System](#org5a22863)
+    2.  [Dotfiles](#org08960dc)
+    3.  [Packages](#org98c5976)
+    4.  [Installation Script](#org133e675)
+    5.  [Images](#orga5960da)
+
+![img](./images/omg.png)
 
 
-<a id="org2bd7d83"></a>
+<a id="org62433a6"></a>
 
 # Dotfiles
 
 Gentoo Linux dotfiles.
 
 
-<a id="orgc412787"></a>
+<a id="org5a22863"></a>
 
 ## System
 
@@ -47,7 +49,7 @@ Gentoo Linux dotfiles.
 </table>
 
 
-<a id="orgb5f6777"></a>
+<a id="org08960dc"></a>
 
 ## Dotfiles
 
@@ -128,7 +130,7 @@ Gentoo Linux dotfiles.
 </table>
 
 
-<a id="orgb81dd03"></a>
+<a id="org98c5976"></a>
 
 ## Packages
 
@@ -354,14 +356,14 @@ Gentoo Linux dotfiles.
 </table>
 
 
-<a id="org719b7fe"></a>
+<a id="org133e675"></a>
 
 ## Installation Script
 
 coming soon&#x2026;
 
 
-<a id="org59f921a"></a>
+<a id="orga5960da"></a>
 
 ## Images
 
