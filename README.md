@@ -1,21 +1,22 @@
 
 # Table of Contents
 
-1.  [Dotfiles](#orge6df9e1)
-    1.  [System](#org83dd22d)
-    2.  [Dotfiles](#orgc599091)
-    3.  [Packages](#orgbcf3858)
-    4.  [Installation Script](#orgf0e1f12)
+1.  [Dotfiles](#org2bd7d83)
+    1.  [System](#orgc412787)
+    2.  [Dotfiles](#orgb5f6777)
+    3.  [Packages](#orgb81dd03)
+    4.  [Installation Script](#org719b7fe)
+    5.  [Images](#org59f921a)
 
 
-<a id="orge6df9e1"></a>
+<a id="org2bd7d83"></a>
 
 # Dotfiles
 
 Gentoo Linux dotfiles.
 
 
-<a id="org83dd22d"></a>
+<a id="orgc412787"></a>
 
 ## System
 
@@ -46,7 +47,7 @@ Gentoo Linux dotfiles.
 </table>
 
 
-<a id="orgc599091"></a>
+<a id="orgb5f6777"></a>
 
 ## Dotfiles
 
@@ -127,7 +128,7 @@ Gentoo Linux dotfiles.
 </table>
 
 
-<a id="orgbcf3858"></a>
+<a id="orgb81dd03"></a>
 
 ## Packages
 
@@ -353,9 +354,23 @@ Gentoo Linux dotfiles.
 </table>
 
 
-<a id="orgf0e1f12"></a>
+<a id="org719b7fe"></a>
 
 ## Installation Script
 
 coming soon&#x2026;
+
+
+<a id="org59f921a"></a>
+
+## Images
+
+**Normal**
+![img](./images/normal.png)
+**Wlogout**
+![img](./images/wlogout.png)
+**Wofi**
+![img](./images/wofi.png)
+**Clipboard**
+![img](./images/wofi-clipboard.png)
 

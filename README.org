@@ -83,3 +83,14 @@ Gentoo Linux dotfiles.
 |----------------------------------------------|
 ** Installation Script
 coming soon...
+
+
+** Images
+ *Normal*
+ [[./images/normal.png]]
+ *Wlogout*
+ [[./images/wlogout.png]]
+ *Wofi*
+ [[./images/wofi.png]]
+ *Clipboard*
+ [[./images/wofi-clipboard.png]]
