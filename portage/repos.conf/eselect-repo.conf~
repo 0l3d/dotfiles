@@ -10,6 +10,11 @@ location = /var/db/repos/Miezhiko
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/Miezhiko.git
 
+[librewolf]
+location = /var/db/repos/librewolf
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/librewolf.git
+
 [foverlay]
 location = /var/db/repos/foverlay
 sync-type = git

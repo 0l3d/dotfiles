@@ -32,7 +32,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-palenight)
+(setq doom-theme 'doom-dracula)
 (setq doom-font (font-spec :family "JetBrains Mono NL Light" :size 13))
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -53,7 +53,11 @@
 (setq centaur-tabs-set-bar 'under)
 (setq x-underline-at-descent-line t)
 
+(setq rustic-analyzer-command '("~/.cargo/bin/rust-analyzer"))
+
 (require 'exercism)
+(require 'elcord)
+(elcord-mode)
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
 ;;

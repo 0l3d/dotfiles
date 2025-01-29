@@ -24,4 +24,3 @@ SWWW_SCRIPT="$HOME/.config/hypr/scripts/swww.sh"
 echo "#!/bin/bash" > "$SWWW_SCRIPT"
 echo "swww img -o \"$SCREEN1\" \"$RANDOM_WALLPAPER1\" --transition-step \"$TRANSITION_STEP\" --transition-fps \"$TRANSITION_FPS\" --transition-type center" >> "$SWWW_SCRIPT"
 echo "swww img -o \"$SCREEN2\" \"$RANDOM_WALLPAPER2\" --transition-step \"$TRANSITION_STEP\" --transition-fps \"$TRANSITION_FPS\" --transition-type center" >> "$SWWW_SCRIPT"
-

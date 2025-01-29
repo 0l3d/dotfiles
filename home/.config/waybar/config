@@ -13,8 +13,11 @@
     "tray",
     "custom/clipboard",
     "custom/picker",
-    "custom/zapret",
+    "custom/zapret",   
+    "custom/syncthing",
+    "custom/keepassxc",
     "custom/wallpapers",
+    "custom/gamemode",
     "custom/cava",
     "custom/updates",
   ],
@@ -61,8 +64,9 @@
     }
   },
   "pulseaudio": {
-    "format": "{icon}  {volume:2}%",
-    "format-bluetooth": "{icon}  {volume}%",
+    "format": "{icon}  {volume:2}% {format_source}",
+    "format-source": "  " ,
+    "format-source-muted": "   ",
     "format-muted": "MUTE",
     "format-icons": {
       "headphones": "",
@@ -73,7 +77,7 @@
     },
     "scroll-step": 5,
     "on-click": "pamixer -t",
-    "on-click-right": "pavucontrol"
+    "on-click-right": "~/.config/waybar/scripts/change_output.sh"
   },
   "memory": {
     "interval": 5,
@@ -158,6 +162,7 @@
     "format": " {}",
     "exec": "~/.config/waybar/scripts/updates.sh",
     "on-click": "kitty doas emerge -uN @world",
+    "tooltip-format":"Updates script.",
     "interval": 300
   },
   "custom/zapret": {
@@ -169,10 +174,28 @@
   },
   "custom/cava": {
     "exec": "~/.config/waybar/scripts/waybar_cava.sh",
-    "format": "{}"
+    "format": "{}",
+    "tooltip" : false
   },
   "custom/wallpapers": {
     "format":"  ",
-    "on-click":"~/.config/waybar/scripts/swww_change.sh"
-  }  
+    "on-click":"~/.config/waybar/scripts/swww_change.sh",
+    "tooltip-format":"Change wallpaper."
+  },
+  "custom/gamemode": {
+    "format":" 󰺵 ", 
+    "on-click":"~/.config/waybar/scripts/gamemode.sh",
+    "tooltip-format":"Game mode"
+  },
+  "custom/syncthing": {
+    "format":" 󰘿 ",
+    "on-click":"xdg-open http://127.0.0.1:8384/",
+    "tooltip-format": " Syncthing, syncthing is a continuous file synchronization program."
+  },
+  "custom/keepassxc": {
+    "format":"  ",
+    "on-click":"keepassxc",
+    "tooltip-format":"KeePass Password Safe is a free and open-source password manager primarily for Linux."
+  }
 }
+

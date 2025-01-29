@@ -5,3 +5,8 @@ gui-libs/hyprutils ~amd64
 dev-libs/hyprland-protocols ~amd64
 gui-libs/aquamarine ~amd64
 gui-wm/hyprland ~amd64
+gui-libs/xdg-desktop-portal-hyprland ~amd64
+#MANGOHUD
+games-util/mangohud ~amd64
+media-libs/imgui ~amd64
+media-libs/implot ~amd64
