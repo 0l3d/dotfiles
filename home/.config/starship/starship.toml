@@ -1,95 +1,99 @@
-## ░█▀▀░▀█▀░█▀█░█▀▄░█▀▀░█░█░▀█▀░█▀█
-## ░▀▀█░░█░░█▀█░█▀▄░▀▀█░█▀█░░█░░█▀▀
-## ░▀▀▀░░▀░░▀░▀░▀░▀░▀▀▀░▀░▀░▀▀▀░▀░░
+# Don't print a new line at the start of the prompt
+add_newline = false
+# Pipes ╰─ ╭─
+# Powerline symbols                                     
+# Wedges 🭧🭒 🭣🭧🭓
+# Random noise 🬖🬥🬔🬗
 
-# Sets user-defined palette
-palette = "catppuccin_mocha"
+# format = """
+# $cmd_duration$username$hostname $directory $git_branch
+# $character
+# """
+format = """
+$cmd_duration$directory $git_branch
+$character
+"""
 
-# Setups
-format="$directory$git_branch$character"
-right_format = """$git_status$cmd_duration"""
-add_newline = false 
+# Replace the "❯" symbol in the prompt with "➜"
+[character]                            # The name of the module we are configuring is "character"
+success_symbol = "[• ](bold fg:green) "
+error_symbol = "[• 󰅙](bold fg:red) "
 
-# Other languages configurations:
-c.disabled = true
-cmake.disabled = true
-haskell.disabled = true
-python.disabled = true
-ruby.disabled = true
-rust.disabled = true
-perl.disabled = true
-package.disabled = true
-lua.disabled = true
-nodejs.disabled = true
-java.disabled = true
-golang.disabled = true
-
-[conda]
-format = ' [$symbol$environment](dimmed green) '
-
-# Prompt symbols 
-[character]
-success_symbol = "[](green bold)"
-error_symbol = "[](pink)"
-vicmd_symbol = "[](peach)"
-
-[directory]
-format = "[]($style)[ ](bg:base fg:pink)[$path](bg:base fg:lavender bold)[ ]($style)"
-style = "bg:none fg:base"
-truncation_length = 3
-truncate_to_repo=false
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
 
 [git_branch]
-format = "[]($style)[[ ](bg:base fg:green bold)$branch](bg:base fg:lavender)[ ]($style)"
-style = "bg:none fg:base"
+style = "bg: green"
+symbol = "󰘬"
+truncation_length = 4
+truncation_symbol = ""
+format = "• [](bold fg:green)[$symbol $branch(:$remote_branch)](fg:black bg:green)[ ](bold fg:green)"
+
+[git_commit]
+commit_hash_length = 4
+tag_symbol = " "
+
+[git_state]
+format = '[\($state( $progress_current of $progress_total)\)]($style) '
+cherry_pick = "[🍒 PICKING](bold red)"
 
 [git_status]
-# $all status$ahead_behind
-format = "[]($style)[$all_status$ahead_behind](bg:base fg:yellow)[ ]($style)"
-style = "bg:none fg:base"
-conflicted = "="
-ahead =	"⇡${count}"
-behind = "⇣${count}"
-diverged = "⇕⇡${ahead_count}⇣${behind_count}"
-up_to_date = ""
-untracked = "?${count}"
-stashed = ""
-modified = "!${count}"
-staged = "+${count}"
-renamed = "»${count}"
-deleted = "${count}"
+conflicted = " 🏳 "
+ahead = " 🏎💨 "
+behind = " 😰 "
+diverged = " 😵 "
+untracked = " 🤷 ‍"
+stashed = " 📦 "
+modified = " 📝 "
+staged = '[++\($count\)](green)'
+renamed = " ✍️ "
+deleted = " 🗑 "
+
+[hostname]
+ssh_only = false
+format =  "[•$hostname](bg:cyan bold fg:black)[](bold fg:cyan )"
+trim_at = ".companyname.com"
+disabled = false
+
+[line_break]
+disabled = false
+
+[memory_usage]
+disabled = true
+threshold = -1
+symbol = " "
+style = "bold dimmed green"
+
+[time]
+disabled = true
+format = '🕙[\[ $time \]]($style) '
+time_format = "%T"
+
+[username]
+style_user = "bold bg:cyan fg:black"
+style_root = "red bold"
+format = "[](bold fg:cyan)[$user]($style)"
+disabled = false
+show_always = true
+
+[directory]
+home_symbol = "  "
+read_only = "  "
+style = "bg:green fg:black"
+truncation_length = 6
+truncation_symbol = "••/"
+format = '[](bold fg:green)[$path ]($style)[](bold fg:green)'
+
+
+[directory.substitutions]
+"Desktop" = "  "
+"Documents" = "  "
+"Downloads" = "  "
+"Music" = " 󰎈 "
+"Pictures" = "  "
+"Videos" = "  "
 
 [cmd_duration]
-min_time = 1
-# duration & style 
-format = "[]($style)[[󱑂 ](bg:base fg:flamingo bold)$duration](bg:base fg:text)[ ]($style)"
-disabled = false
-style = "bg:none fg:base"
-
-[palettes.catppuccin_mocha]
-rosewater = "#f5e0dc"
-flamingo = "#f2cdcd"
-pink = "#f5c2e7"
-mauve = "#cba6f7"
-red = "#f38ba8"
-maroon = "#eba0ac"
-peach = "#fab387"
-yellow = "#f9e2af"
-green = "#a6e3a1"
-teal = "#94e2d5"
-sky = "#89dceb"
-sapphire = "#74c7ec"
-blue = "#89b4fa"
-lavender = "#b4befe"
-text = "#cdd6f4"
-subtext1 = "#bac2de"
-subtext0 = "#a6adc8"
-overlay2 = "#9399b2"
-overlay1 = "#7f849c"
-overlay0 = "#6c7086"
-surface2 = "#585b70"
-surface1 = "#45475a"
-surface0 = "#313244"
-base = "#1e1e2e"
-mantle = "#181825"
-crust = "#11111b"
+min_time = 0
+format = '[](bold fg:yellow)[ $duration](bold bg:yellow fg:black)[](bold fg:yellow) •• '
