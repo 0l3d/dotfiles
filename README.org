@@ -32,12 +32,14 @@ Gentoo :
 1. Copy portage to /etc/portage
 2. Install the all packages from /etc/portage/world
 3. Copy dotfiles/* to ~/ (HOME)
-4. Enjoy!
+4. Optional : extract grub and sddm and run *.sh
+5. Enjoy!
 
 Other :
 1. Copy dotfiles/* to ~/ (HOME)
 2. Install the all packages from /etc/portage/world (Adapt it to your own distribution.)
-3. Enjoy!
+3. Optional : extract grub and sddm and run *.sh
+4. Enjoy!
 
 "detailed guide" coming soon...
 
