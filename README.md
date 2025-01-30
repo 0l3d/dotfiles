@@ -38,7 +38,7 @@ Gentoo Linux dotfiles.
 
 <tr>
 <td class="org-left">GPU</td>
-<td class="org-left">RTX 2060SUPER</td>
+<td class="org-left">RTX 3060TI</td>
 </tr>
 
 <tr>
