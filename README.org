@@ -1,12 +1,12 @@
 [[./images/omg.png]]
 
 * Dotfiles
-Gentoo Linux dotfiles.
+Gentoo + Linux dotfiles.
 
 ** System
 |-----+---------------|
 | CPU | AMD R5 5600   |
-| GPU | RTX 2060SUPER |
+| GPU | RTX 3060TI    |
 | RAM | 32 GIGACHAD   |
 |-----+---------------|
 
@@ -27,64 +27,19 @@ Gentoo Linux dotfiles.
 | *INIT*        | OpenRC    |
 |---------------+-----------|
 
-** Packages
-|----------------------------------------------|
-| doas                                         |
-| eclean-kernel (gentoo)                       |
-| sysklogd (gentoo)                            |
-| lz4                                          |
-| unrar                                        |
-| emacs                                        |
-| nano                                         |
-| all-the-icons + (-dired)                     |
-| emacs-ebuild-plugins                         |
-| nerd-icons                                   |
-| eselect-repository (gentoo)                  |
-| cliphist                                     |
-| fastfetch                                    |
-| nwg-look                                     |
-| genlop + gentoolkit + portage-utils (gentoo) |
-| zsh                                          |
-| just (dev-build gentoo)                      |
-| rust-bin                                     |
-| prismlauncher                                |
-| gamemode                                     |
-| steam-launcher                               |
-| nm-applet                                    |
-| hyprlock                                     |
-| hyprshot                                     |
-| swaync                                       |
-| swww                                         |
-| waybar                                       |
-| wl-clipboard                                 |
-| wlogout                                      |
-| wofi                                         |
-| hyprland                                     |
-| fontawesome                                  |
-| jetbrains-mono                               |
-| nerdfonts                                    |
-| noto-emoji                                   |
-| cava                                         |
-| pavucontrol                                  |
-| playerctl                                    |
-| pulseaudio                                   |
-| dnscrypt-proxy                               |
-| discord (vesktop-bin)                        |
-| networkmanager                               |
-| zapret                                       |
-| fragments (torrent client)                   |
-| flatpak                                      |
-| inxi                                         |
-| btop                                         |
-| zen-browser                                  |
-| kitty                                        |
-| xterm                                        |
-| kvantum                                      |
-| nwg-look                                     |
-| exercism                                     |
-|----------------------------------------------|
-** Installation Script
-coming soon...
+** Installation
+Gentoo :
+1. Copy portage to /etc/portage
+2. Install the all packages from /etc/portage/world
+3. Copy dotfiles/* to ~/ (HOME)
+4. Enjoy!
+
+Other :
+1. Copy dotfiles/* to ~/ (HOME)
+2. Install the all packages from /etc/portage/world (Adapt it to your own distribution.)
+3. Enjoy!
+
+"detailed guide" coming soon...
 
 
 ** Images

@@ -1,24 +1,23 @@
 
 # Table of Contents
 
-1.  [Dotfiles](#org62433a6)
-    1.  [System](#org5a22863)
-    2.  [Dotfiles](#org08960dc)
-    3.  [Packages](#org98c5976)
-    4.  [Installation Script](#org133e675)
-    5.  [Images](#orga5960da)
+1.  [Dotfiles](#org2593a0f)
+    1.  [System](#orgd169fe6)
+    2.  [Dotfiles](#org45db955)
+    3.  [Installation](#org2503fbe)
+    4.  [Images](#org9bae1ea)
 
 ![img](./images/omg.png)
 
 
-<a id="org62433a6"></a>
+<a id="org2593a0f"></a>
 
 # Dotfiles
 
-Gentoo Linux dotfiles.
+Gentoo + Linux dotfiles.
 
 
-<a id="org5a22863"></a>
+<a id="orgd169fe6"></a>
 
 ## System
 
@@ -49,7 +48,7 @@ Gentoo Linux dotfiles.
 </table>
 
 
-<a id="org08960dc"></a>
+<a id="org45db955"></a>
 
 ## Dotfiles
 
@@ -130,240 +129,27 @@ Gentoo Linux dotfiles.
 </table>
 
 
-<a id="org98c5976"></a>
+<a id="org2503fbe"></a>
 
-## Packages
+## Installation
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+Gentoo :
 
+1.  Copy portage to /etc/portage
+2.  Install the all packages from /etc/portage/world
+3.  Copy dotfiles/\* to ~/ (HOME)
+4.  Enjoy!
 
-<colgroup>
-<col  class="org-left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="org-left">doas</td>
-</tr>
+Other :
 
-<tr>
-<td class="org-left">eclean-kernel (gentoo)</td>
-</tr>
+1.  Copy dotfiles/\* to ~/ (HOME)
+2.  Install the all packages from /etc/portage/world (Adapt it to your own distribution.)
+3.  Enjoy!
 
-<tr>
-<td class="org-left">sysklogd (gentoo)</td>
-</tr>
-
-<tr>
-<td class="org-left">lz4</td>
-</tr>
-
-<tr>
-<td class="org-left">unrar</td>
-</tr>
-
-<tr>
-<td class="org-left">emacs</td>
-</tr>
-
-<tr>
-<td class="org-left">nano</td>
-</tr>
-
-<tr>
-<td class="org-left">all-the-icons + (-dired)</td>
-</tr>
-
-<tr>
-<td class="org-left">emacs-ebuild-plugins</td>
-</tr>
-
-<tr>
-<td class="org-left">nerd-icons</td>
-</tr>
-
-<tr>
-<td class="org-left">eselect-repository (gentoo)</td>
-</tr>
-
-<tr>
-<td class="org-left">cliphist</td>
-</tr>
-
-<tr>
-<td class="org-left">fastfetch</td>
-</tr>
-
-<tr>
-<td class="org-left">nwg-look</td>
-</tr>
-
-<tr>
-<td class="org-left">genlop + gentoolkit + portage-utils (gentoo)</td>
-</tr>
-
-<tr>
-<td class="org-left">zsh</td>
-</tr>
-
-<tr>
-<td class="org-left">just (dev-build gentoo)</td>
-</tr>
-
-<tr>
-<td class="org-left">rust-bin</td>
-</tr>
-
-<tr>
-<td class="org-left">prismlauncher</td>
-</tr>
-
-<tr>
-<td class="org-left">gamemode</td>
-</tr>
-
-<tr>
-<td class="org-left">steam-launcher</td>
-</tr>
-
-<tr>
-<td class="org-left">nm-applet</td>
-</tr>
-
-<tr>
-<td class="org-left">hyprlock</td>
-</tr>
-
-<tr>
-<td class="org-left">hyprshot</td>
-</tr>
-
-<tr>
-<td class="org-left">swaync</td>
-</tr>
-
-<tr>
-<td class="org-left">swww</td>
-</tr>
-
-<tr>
-<td class="org-left">waybar</td>
-</tr>
-
-<tr>
-<td class="org-left">wl-clipboard</td>
-</tr>
-
-<tr>
-<td class="org-left">wlogout</td>
-</tr>
-
-<tr>
-<td class="org-left">wofi</td>
-</tr>
-
-<tr>
-<td class="org-left">hyprland</td>
-</tr>
-
-<tr>
-<td class="org-left">fontawesome</td>
-</tr>
-
-<tr>
-<td class="org-left">jetbrains-mono</td>
-</tr>
-
-<tr>
-<td class="org-left">nerdfonts</td>
-</tr>
-
-<tr>
-<td class="org-left">noto-emoji</td>
-</tr>
-
-<tr>
-<td class="org-left">cava</td>
-</tr>
-
-<tr>
-<td class="org-left">pavucontrol</td>
-</tr>
-
-<tr>
-<td class="org-left">playerctl</td>
-</tr>
-
-<tr>
-<td class="org-left">pulseaudio</td>
-</tr>
-
-<tr>
-<td class="org-left">dnscrypt-proxy</td>
-</tr>
-
-<tr>
-<td class="org-left">discord (vesktop-bin)</td>
-</tr>
-
-<tr>
-<td class="org-left">networkmanager</td>
-</tr>
-
-<tr>
-<td class="org-left">zapret</td>
-</tr>
-
-<tr>
-<td class="org-left">fragments (torrent client)</td>
-</tr>
-
-<tr>
-<td class="org-left">flatpak</td>
-</tr>
-
-<tr>
-<td class="org-left">inxi</td>
-</tr>
-
-<tr>
-<td class="org-left">btop</td>
-</tr>
-
-<tr>
-<td class="org-left">zen-browser</td>
-</tr>
-
-<tr>
-<td class="org-left">kitty</td>
-</tr>
-
-<tr>
-<td class="org-left">xterm</td>
-</tr>
-
-<tr>
-<td class="org-left">kvantum</td>
-</tr>
-
-<tr>
-<td class="org-left">nwg-look</td>
-</tr>
-
-<tr>
-<td class="org-left">exercism</td>
-</tr>
-</tbody>
-</table>
+&ldquo;detailed guide&rdquo; coming soon&#x2026;
 
 
-<a id="org133e675"></a>
-
-## Installation Script
-
-coming soon&#x2026;
-
-
-<a id="orga5960da"></a>
+<a id="org9bae1ea"></a>
 
 ## Images
 
