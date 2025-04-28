@@ -52,7 +52,7 @@ To clone and set up the dotfiles configuration, run:
 
 ```bash
 git clone https://github.com/0l3d/dotfiles.git ~/.0l3d.Dotfiles
-~/.0l3d.Dotfiles/configure
+~/.0l3d.Dotfiles/0l3d
 ```
 Make sure you have git and bash installed before running the script.
 
