@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONFIGURE="$HOME/.0l3d.Dotfiles/cfg"
+CONFIGURE="$HOME/.0l3d.Dotfiles/cs"
 
 COMPLIMENTS=(
 "rc-status returned: 'PERFECT'."
@@ -22,13 +22,12 @@ echo
 
 if [[ -x "$CONFIGURE" ]]; then
     echo "What would you like to do?"
-    echo "[1] Configure dotfiles"
+    echo "[1] Apply dotfiles"
     echo "[2] Update dotfiles"
     read -p "Enter your choice (1 or 2): " choice
 
     case $choice in
         1)
-            echo "Configuring dotfiles..."
             "$CONFIGURE"
             ;;
         2)
