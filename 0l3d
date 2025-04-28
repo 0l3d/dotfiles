@@ -1,0 +1,63 @@
+#!/bin/bash
+
+CONFIGURE="$HOME/.0l3d.Dotfiles/cfg"
+
+COMPLIMENTS=(
+"rc-status returned: 'PERFECT'."
+"Portage just filed a bug report: 'too beautiful to compile.'"
+"This config is so clean, it made dust go extinct."
+"Even /tmp felt special."
+"Welcome to your terminal. Population: Legend."
+)
+
+echo "Hello, $(whoami) 👋"
+
+echo "💾  RAM: $(free -h | awk '/^Mem:/ {print $3 "/" $2}')"
+echo "📀  Disks:"
+df -h | grep '^/dev/' | awk '{print "    " $1 ": " $3 "/" $2 " used (" $5 ")"}'
+echo "🧠  Kernel: $(uname -r)"
+echo
+echo "✨  ${COMPLIMENTS[$RANDOM % ${#COMPLIMENTS[@]}]}"
+echo
+
+if [[ -x "$CONFIGURE" ]]; then
+    echo "What would you like to do?"
+    echo "[1] Configure dotfiles"
+    echo "[2] Update dotfiles"
+    read -p "Enter your choice (1 or 2): " choice
+
+    case $choice in
+        1)
+            echo "Configuring dotfiles..."
+            "$CONFIGURE"
+            ;;
+        2)
+            echo "Updating dotfiles..."
+            git -C "$HOME/.0l3d.Dotfiles" pull --quiet
+            echo "Dotfiles updated!"
+            ;;
+        *)
+            echo "Invalid choice. Exiting."
+            ;;
+    esac
+else
+    echo "Configure script not found. Would you like to clone the repository and configure it?"
+    echo "[1] Yes, clone and configure"
+    echo "[2] Exit"
+    read -p "Enter your choice (1 or 2): " choice
+
+    case $choice in
+        1)
+            echo "Cloning the repository..."
+            git clone --quiet https://github.com/0l3d/.dotfiles.git "$HOME/.0l3d.Dotfiles"
+            echo "Dotfiles cloned. Now configuring..."
+            "$CONFIGURE"
+            ;;
+        2)
+            echo "Exiting."
+            ;;
+        *)
+            echo "Invalid choice. Exiting."
+            ;;
+    esac
+fi
