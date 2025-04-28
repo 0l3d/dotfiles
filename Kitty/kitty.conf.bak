@@ -1,0 +1,12 @@
+# Font ayarları
+font_family      BigBlueTermPlus Nerd Font
+font_size        10.0
+
+# Pencere ayarları
+window_padding_width 18 18
+background_opacity    0.8
+
+# BEGIN_KITTY_THEME
+# Afterglow
+include current-theme.conf
+# END_KITTY_THEME

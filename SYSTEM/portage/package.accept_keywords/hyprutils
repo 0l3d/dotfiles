@@ -1,0 +1,16 @@
+gui-apps/hyprshot ~amd64
+app-misc/cliphist ~amd64
+gui-apps/wl-clipboard ~amd64
+gui-apps/hyprpicker ~amd64
+gui-apps/swaync ~amd64
+dev-libs/hyprgraphics ~amd64
+gui-libs/hyprland-qtutils ~amd64
+dev-libs/hyprlang ~amd64
+gui-apps/wlogout ~amd64
+gui-apps/hyprlock ~amd64
+dev-cpp/sdbus-c++ ~amd64
+gui-apps/swww
+gui-apps/ags ~amd64
+sys-apps/xdg-desktop-portal-hyprland ~amd64
+gui-apps/hyprsunset ~amd64
+dev-cpp/glaze ~amd64

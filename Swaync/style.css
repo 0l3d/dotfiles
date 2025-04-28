@@ -1,0 +1,39 @@
+/***
+ *    ┏┓┓ ┏┏┓┓┏┳┓┏┓
+ *    ┗┓┃┃┃┣┫┗┫┃┃┃ 
+ *    ┗┛┗┻┛┛┗┗┛┛┗┗┛
+ *                 
+ */
+
+/***
+ *    ┓ ┏┏┓┓ ┓ ┳┳┏┓┏┳┓  ┓ ┏┏┓┓┏┳┓┏┓┳┓
+ *    ┃┃┃┣┫┃ ┃ ┃┃┗┓ ┃ ━━┃┃┃┣┫┗┫┣┫┣┫┣┫
+ *    ┗┻┛┛┗┗┛┗┛┗┛┗┛ ┻   ┗┻┛┛┗┗┛┻┛┛┗┛┗
+ *                                   
+ */
+
+
+
+@define-color foreground #A6EDE4;
+@define-color background #303446;
+@define-color cursor #A6EDE4;
+
+@define-color color0 #000109;
+@define-color color1 #425866;
+@define-color color2 #CD4546;
+@define-color color3 #B77667;
+@define-color color4 #009886;
+@define-color color5 #009886;
+@define-color color6 #009886;
+@define-color color7 #77DDD1;
+@define-color color8 #539A92;
+@define-color color9 #456374;
+@define-color color10 #FE1415;
+@define-color color11 #F49D89;
+@define-color color12 #00CBB3;
+@define-color color13 #00CBB3;
+@define-color color14 #00CBB3;
+@define-color color15 #77DDD1;
+
+@import 'themes/special/notifications.css';
+@import 'themes/special/control-center.css';

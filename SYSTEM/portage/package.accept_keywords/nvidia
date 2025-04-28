@@ -1,0 +1,12 @@
+x11-drivers/nvidia-drivers ~amd64
+gui-libs/egl-x11 ~amd64
+gui-libs/eglexternalplatform ~amd64
+gui-libs/hyprutils ~amd64
+dev-libs/hyprland-protocols ~amd64
+gui-libs/aquamarine ~amd64
+gui-wm/hyprland ~amd64
+gui-libs/xdg-desktop-portal-hyprland ~amd64
+#MANGOHUD
+games-util/mangohud ~amd64
+media-libs/imgui ~amd64
+media-libs/implot ~amd64

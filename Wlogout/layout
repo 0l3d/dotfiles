@@ -1,0 +1,27 @@
+{
+    "label" : "lock",
+    "action" : "~/.config/hypr/hyprlock.sh",
+    "text" : "Lock",
+    "keybind" : "l"
+}
+
+{
+    "label" : "logout",
+    "action" : "hyprctl dispatch exit 0",
+    "text" : "Logout",
+    "keybind" : "e"
+}
+
+{
+    "label" : "shutdown",
+    "action" : "kitty doas poweroff",
+    "text" : "Shutdown",
+    "keybind" : "s"
+}
+
+{
+    "label" : "reboot",
+    "action" : "kitty doas reboot",
+    "text" : "Reboot",
+    "keybind" : "r"
+}

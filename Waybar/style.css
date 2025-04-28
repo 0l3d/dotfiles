@@ -1,0 +1,151 @@
+      * {
+    	font-size: 15px;
+    	font-family: JetBrainsMono NF;
+    }
+
+    window#waybar {
+        background: transparent;
+    	color: #fdf6e3;
+    }
+
+    #custom-notification,
+    #custom-media,
+    #custom-github_follower,
+    #custom-picker,
+    #custom-clipboard,
+    #custom-power,
+    #custom-zapret,
+    #custom-cava,
+    #custom-gamemode,
+    #custom-wallpapers,
+    #custom-keepassxc,
+    #custom-syncthing,
+    #custom-workmode,
+    #tray,
+    #clock {
+        background-color: transparent;
+        color: #c6d0f5;
+    	border-radius: 10px;
+    	margin-bottom: 5px;
+    	margin-left: 2px;
+    	padding-right: 5px;
+     }
+
+    #pulseaudio {
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      background-color:#303446;
+      margin-bottom: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    #memory,
+    #cpu,
+    #workspaces,
+    #battery,
+    #disk,
+    #custom-gpu,
+    #custom-updates,
+    #custom-icon {
+      background-color:#303446;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    #custom-gpu {
+    	color: lightgreen;
+    }
+
+    #custom-todo {
+    	color: white;
+    }
+
+    #custom-updates {
+        color: #c6d0f5;
+    }
+
+    #custom-icon {
+        border-radius:0;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    	color: pink;
+    	padding-left:10px;
+    	border-left: 0;
+        background-color: transparent;
+    }
+
+    #custom-clipboard {
+    	color:white;
+    }
+
+    #custom-github_follower {
+    	color:white;
+    }
+
+    #custom-power {
+    	color: white;
+    	padding-left: 10px;
+    	padding-right:10px;
+    }
+
+    #tooltip {
+    	font-family: JetBrainsMono NF;
+    }
+    #workspaces button {
+        background: #414559;
+        color: #c6d0f5;
+        margin-left: 1px;
+        margin-right: 1px;
+        padding: 0 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    	margin-top:3px;
+    	margin-bottom:3px;
+        border-radius: 20px;
+    }
+    #workspaces button.active {
+    	border: 2px;
+    	border-color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+        background: #626880;
+    	color: #b5bfe2;
+    }
+    #pulseaudio {
+    	color: #268bd2;
+    }
+    #memory {
+    	color: #2aa198;
+    }
+    #cpu {
+    	color: #6c71c4;
+    }
+    #battery {
+    	color: #859900;
+    }
+    #disk {
+    	color: #b58900;
+    }
+    #custom-power {
+        padding-left:5px;
+    }
+
+    #clock,
+    #pulseaudio,
+    #memory,
+    #cpu,
+    #battery,
+    #power,
+    #disk {
+    	padding: 0 10px;
+    }
+
+    #clock {
+    	border-style:solid;
+    	border:3px;
+    	border-image: linear-gradient(90deg, rgba(166,164,164,1) 0%, rgba(0,234,255,1) 100%);
+    }

@@ -1,0 +1,131 @@
+      * {
+    	font-size: 15px;
+    	font-family: JetBrainsMono NF;
+    }
+
+    window#waybar {
+        background: transparent;
+    	color: #fdf6e3;
+    }
+
+    #custom-notification,
+    #custom-media,
+    #custom-github_follower,
+    #custom-picker,
+    #custom-clipboard,
+    #custom-zapret,
+    #custom-cava,
+    #custom-gamemode,
+    #custom-wallpapers,
+    #custom-keepassxc,
+    #custom-syncthing,
+    #tray,
+    #memory,
+    #cpu,
+    #workspaces,
+    #battery,
+    #disk,
+    #custom-gpu,
+    #custom-updates,
+    #pulseaudio,
+    #clock {
+        margin-top: 2px;
+        background-color: #55172C;
+        border-radius: 30px;
+    	margin-bottom: 5px;
+    	margin-left: 10px;
+    	padding-right: 7px;
+        padding-left: 10px;
+    }
+    #clock:hover {
+        color:yellow;
+    }
+    #custom-icon {
+      border-color:white;
+      border-style: solid;
+      border-bottom: 2px;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+    }
+
+    #custom-gpu {
+    	color: white;
+	    border-color:darkgreen;
+    }
+
+    #custom-todo {
+    	color: white;
+    }
+
+    #custom-updates {
+        color: white;
+	    border-color:black;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #custom-center {
+    	color: pink;
+    	padding-left:10px;
+        background-color: #55172C;
+        margin-left: 5px;
+        border-bottom-left-radius: 20px;
+    }
+
+    #custom-clipboard {
+    	color:white;
+    }
+
+    #custom-github_follower {
+    	color:white;
+    }
+
+    #tooltip {
+    	font-family: JetBrainsMono NF;
+    }
+
+    #workspaces {
+        padding-left: 10px;
+        padding-right: 10px;
+        border:0;
+    }
+    #workspaces button {
+        color: grey;
+        margin-left: 1px;
+        margin-right: 1px;
+        padding: 0 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    	margin-top:3px;
+    	margin-bottom:3px;
+        border-radius: 20px;
+    }
+    #workspaces button.active {
+        background: #444444;
+    	color: #f5d6cc;
+    }
+    #pulseaudio {
+    	border-color: #268bd2;
+	    color:white;
+    }
+    #memory {
+    	border-color: #2aa198;
+	    color:white;
+    }
+    #cpu {
+    	border-color: #6c71c4;
+	    color: white;
+    }
+    #disk {
+    	border-color: #b58900;
+	    color: white;
+    }
+    #custom-power {
+        color: #DA836E;
+        padding-left: 10px;
+        background-color: #55172C;
+        border-bottom-right-radius: 20px;
+        padding-right: 20px;
+    }

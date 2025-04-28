@@ -1,0 +1,5 @@
+net-misc/spice-gtk usbredir
+net-dns/dnsmasq script
+sys-apps/iproute2 -minimal
+net-libs/gnutls tools pkcs11
+app-crypt/p11-kit abi_x86_32

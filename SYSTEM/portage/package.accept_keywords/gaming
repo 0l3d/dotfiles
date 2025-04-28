@@ -1,0 +1,11 @@
+games-util/gamemode ~amd64
+#LUTRIS
+games-util/lutris ~amd64
+dev-python/pypresence ~amd64
+dev-python/moddb ~amd64
+#LUTRIS
+
+#GAMESCOPE
+gui-wm/gamescope ~amd64
+media-libs/vkroots ~amd64
+#GAMESCOPE
